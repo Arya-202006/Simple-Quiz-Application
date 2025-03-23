@@ -14,17 +14,17 @@ public class QuizModel {
         questions = new ArrayList<>();
         options = new ArrayList<>();
         correctAnswers = new ArrayList<>();
-        questions.add("Which animal is known as the \"King of the Jungle\"?");
-        options.add(new String[]{"1.Tiger","2.Elephant","3.Lion","4.Bear"});
+        questions.add("Which ocean is the largest?");
+        options.add(new String[]{"1.Atlantic Ocean","2.Indian Ocean","3.Arctic Ocean","4.Pacific Ocean"});
+        correctAnswers.add("4");
+
+        questions.add("What is the tallest mountain in the world?");
+        options.add(new String[]{"1.Mount Kilimanjaro","2.Mount Everest", "3.Mount Fuji ","4.Mount K2"});
+        correctAnswers.add("2");
+
+        questions.add("Which country is famous for the Eiffel Tower?");
+        options.add(new String[]{"1. Italy","2.Spain","3.France","4.Germany"});
         correctAnswers.add("3");
-
-        questions.add("What is the smallest prime number?");
-        options.add(new String[]{"1.0","2.1", "3.2 ","4.3"});
-        correctAnswers.add("2");
-
-        questions.add("What is the hardest natural substance on Earth??");
-        options.add(new String[]{"1. Gold","2.Diamond","3.Iron","4.Steel"});
-        correctAnswers.add("2");
     }
     public int getTotalQuestions() {
         return questions.size();
